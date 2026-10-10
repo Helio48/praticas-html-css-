@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevStart 2026</title>
+    <link rel="stylesheet" href="../03-devstart-2026/estilo.css">
+</head>
+
+<body>
+    <div id="cabecalho">
+        <h1>DevStart 2026</h1>
+        <p>Benvindos ao maior evento de desenvolvimento do ano!</p>
+    </div>
+
+    <div id="conteudo">
+        <img src="../03-devstart-2026/img/Grande-evento.png" alt="Foto do evento DevStart" width="200" height="200">
+        <img src="../03-devstart-2026/img/Grande-eventoimg2.png" alt="Foto do evento DevStart" width="200" height="200">
+        <p>O DevStart 2026 é um evento que reúne os melhores desenvolvedores da América Latina.</p>
+
+        <ul>
+            <li>Workshop de HTML e CSS: dia 15/06</li>
+            <li>Minicurso de JavaScript: dia 16/06</li>
+            <li>Palestra sobre React: dia 17/06</li>
+            <li>Hackathon: dia 18/06</li>
+        </ul>
+
+        <a href="../03-devstart-2026/workshop.html" target="_self">Workshop de HTML e CSS</a> |
+        <a href="../03-devstart-2026/mini-curso-js.html" target="_self">Minicurso de JavaScript</a> |
+        <a href="../03-devstart-2026/palestra.html" target="_self">Palestra sobre React</a> |
+        <a href="../03-devstart-2026/hackathon.html" target="_self">Hackathon</a>
+
+        <h2>Programação do evento</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Horário</th>
+                    <th>Palestra</th>
+                    <th>Palestrante</th>
+                    <th>Duração</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>09:00</td>
+                    <td>Introdução ao HTML</td>
+                    <td>Ana Souza</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>10:00</td>
+                    <td>Conhecendo o CSS</td>
+                    <td>Helio Filho</td>
+                    <td>1 hora</td>
+                </tr>
+                <tr>
+                    <td>11:00</td>
+                    <td>Carreiras e Tecnologias</td>
+                    <td>Lucas Lima</td>
+                    <td>1 hora</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <div id="inscricao">
+        <h2>Inscreva-se agora!</h2>
+        <p>Garanta sua vaga no DevStart 2026 e aproveite todas as oportunidades de aprendizado e networking.</p>
+
+        <form action="" method="POST">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" placeholder="Digite seu Nome Completo" required>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu E-mail" required>
+                <label for="idade">Idade:</label>
+                <input type="number" id="idade" name="idade" placeholder="Digite sua Idade" required>
+                <label for="cidade">Cidade:</label>
+                <input type="text" id="cidade" name="cidade" placeholder="Digite sua Cidade" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Áreas de Interesse</legend>
+                <label for="interesse">Selecione suas áreas de interesse:</label><br>
+                <input type="radio" id="workshop" name="interesse" value="workshop">
+                <label for="workshop">Workshop de HTML e CSS</label><br>
+                <input type="radio" id="minicurso" name="interesse" value="minicurso">
+                <label for="minicurso">Minicurso de JavaScript</label><br>
+                <input type="radio" id="palestra" name="interesse" value="palestra">
+                <label for="palestra">Palestra sobre React</label><br>
+                <input type="radio" id="hackathon" name="interesse" value="hackathon">
+                <label for="hackathon">Hackathon</label><br>
+                <label for="motivoinscricao">Motivo da Inscrição:</label><br>
+                <textarea name="motivoinscricao" id="motivoinscricao" cols="30" rows="10"
+                    placeholder="Digite o motivo da sua inscrição">
+                </textarea>
+            </fieldset>
+        </form>
+    </div>
+
+    <div id="rodape">
+        <p>© 2026 DevStart. Todos os direitos reservados.</p>
+
+
+
+</body>
+
+</html>
