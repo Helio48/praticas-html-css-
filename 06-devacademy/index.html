@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Cursos DevAcademy</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div class="cabecalho">
+        <h1>DevAcademy</h1>
+        <hr>
+        <p>Seja bem vindo ao nosso portal de curso.</p>
+
+        <a href="../06-devacademy/portalAluno.html" target="_blank">Portal do aluno</a>
+        <a href="ouvidoria.html" target="_blank">Ouvidoria</a>
+    </div>
+
+    <div id="conteudo">
+        <h2>Sobre Nós</h2>
+        <hr>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti tempora voluptatibus,
+            cum, illo hic illum earum quaerat quis non error, aut vitae ipsa?
+            Unde neque impedit repellat atque eos omnis.</p>
+
+        <img src="../06-devacademy/img/tec01.png" alt="computador com conteúdos voando" width="300px">
+    </div>
+
+    <div id="tabela">
+        <h2>Cursos Disponíveis</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        Curso
+                    </th>
+                    <th>
+                        Categoria
+                    </th>
+                    <th>
+                        Duração
+                    </th>
+                    <th>
+                        Nível
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>HTML5</td>
+                    <td>Front-End</td>
+                    <td>20 Horas</td>
+                    <td>Iniciante</td>
+                </tr>
+                <tr>
+                    <td>CSS3</td>
+                    <td>Front-End</td>
+                    <td>30 Horas</td>
+                    <td>Iniciante</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Front-End</td>
+                    <td>40 Horas</td>
+                    <td>Intermediário</td>
+                </tr>
+                <tr>
+                    <td>DOCKER</td>
+                    <td>Front-End</td>
+                    <td>50 Horas</td>
+                    <td>Intermediário</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="estilo-form">
+        <h2>Por que estudar com nosco ?</h2>
+
+        <ul>
+            <li>Temos os melhores equipamentos do Brasil atualmente</li>
+            <li>Os melhores professores</li>
+            <li>Ensino Real para engressar o mais rápido possivel no mercado</li>
+            <li>5 vezes campeã dos melhores sistemas de ensino de tecnologia</li>
+        </ul>
+
+        <h2>Aproveitar Oferta</h2>
+        <form action="" method="post">
+            <fieldset>
+                <label for="nome">Digite seu nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required><br><br>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required><br><br>   
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu email" required><br><br>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="password" placeholder="Digite sua senha" required><br><br>
+                <label for="conf-senha">Confirme sua senha:</label>
+                <input type="password" id="conf-senha" name="password" placeholder="Confirme sua senha" required><br><br>
+                <label for="Sexo">Sexo:</label>
+                <input type="radio" name="resposta" id="masculino" value="masculino" required>
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="resposta" id="feminino" value="feminino" required>
+                <label for="feminino">Feminino</label><br><br>
+                <button type="submit" class="btn-enviar">Enviar</button>
+            </fieldset>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
