@@ -1,0 +1,35 @@
+body{
+    background: wheat url(img/fundo.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#main-content{
+    width: 900px;
+}
+
+#external-links{
+
+    border: 2px solid white;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    background: white;
+    color: black;
+}
+
+p::first-letter{
+    font-size: 1.30em;
+    font-weight: bold;
+}
+
+#baseboard{
+    text-align: center;
+    font-weight: bold;
+}

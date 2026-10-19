@@ -1,0 +1,47 @@
+body{
+    background: #d5ca8d url(img/fundo3.png) left top;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#main-content{
+    width: 900px;
+    padding: 10px;
+    
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+a:hover{
+    background: black;
+    color: white;
+}
+
+a:active{
+    background: grey;
+}
+
+.vacancies{
+    text-transform: capitalize;
+    border: #ffffff solid 2px;
+    margin: 10px;
+}
+
+#form{
+    padding: 10px;
+    line-height: 1.6em;
+}
+
+input:focus{
+    background: #808080a2;
+    color: white;
+}
+
+input:required{
+    border: 2px solid #010101;
+}
